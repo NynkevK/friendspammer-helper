@@ -33,11 +33,11 @@
 	<distributionManagement>
 		<repository>
 			<id>packagecloud-NynkevK</id>
-			<url>packagecloud+https://packagecloud.io/NynkevK/friendspammer-helper</url>
+			<url>packagecloud+https://packagecloud.io/NynkevK/public-friendspammer-helper</url>
 		</repository>
 		<snapshotRepository>
 			<id>packagecloud-NynkevK</id>
-			<url>packagecloud+https://packagecloud.io/NynkevK/friendspammer-helper</url>
+			<url>packagecloud+https://packagecloud.io/NynkevK/public-friendspammer-helper</url>
 		</snapshotRepository>
 	</distributionManagement>
 
