@@ -21,7 +21,25 @@
 				<version>2.22.1</version>
 			</plugin>
 		</plugins>
+		<extensions>
+			<extension>
+				<groupId>io.packagecloud.maven.wagon</groupId>
+				<artifactId>maven-packagecloud-wagon</artifactId>
+				<version>0.0.6</version>
+			</extension>
+		</extensions>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>packagecloud-NynkevK</id>
+			<url>packagecloud+https://packagecloud.io/NynkevK/friendspammer-helper</url>
+		</repository>
+		<snapshotRepository>
+			<id>packagecloud-NynkevK</id>
+			<url>packagecloud+https://packagecloud.io/NynkevK/friendspammer-helper</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
