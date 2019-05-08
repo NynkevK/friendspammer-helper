@@ -84,3 +84,5 @@
 		</dependency>
 	</dependencies>
 </project>
+
+<!--		mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dmaven.test.failure.ignore=true -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=nynkevk-github -Dsonar.login=7c1476ed1f25ee4228addfd7f44ba1b14ca8ec12-->
