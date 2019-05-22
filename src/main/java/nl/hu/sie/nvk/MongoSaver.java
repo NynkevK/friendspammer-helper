@@ -1,19 +1,9 @@
 package nl.hu.sie.nvk;
 
-import java.net.UnknownHostException;
-import java.util.Arrays;
-
 import org.bson.Document;
-
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
-import com.mongodb.MongoClientOptions;
 import com.mongodb.MongoClientURI;
-import com.mongodb.MongoCredential;
 import com.mongodb.MongoException;
-import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
@@ -21,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MongoSaver {
+    private MongoSaver() { }
 
     public static boolean saveEmail(String to, String from, String subject, String text, Boolean html) {
         boolean success = true;
